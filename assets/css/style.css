@@ -170,10 +170,28 @@ select {
 .delay-200 { animation-delay: 0.2s; }
 .delay-300 { animation-delay: 0.3s; }
 .delay-400 { animation-delay: 0.4s; }
+.delay-450 { animation-delay: 0.45s; }
 .delay-500 { animation-delay: 0.5s; }
 .delay-600 { animation-delay: 0.6s; }
 
 /* Text Shadow Utility */
 .text-shadow-header {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.anchor-tag {
+    transition: all 0.2s ease;
+}
+
+.anchor-tag:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+}
+
+.anchor-group-header {
+    transition: all 0.2s ease;
+}
+
+.anchor-group-header:hover {
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
